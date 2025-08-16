@@ -27,12 +27,12 @@ const Game = () => {
           </div>
           <div className='mr-[100px] flex flex-col items-center'>
             <div>
-              <button className='h-[50px] w-[50px] border-black border-[1px] ml-[20px] font-extrabold text-[20px] hover:bg-black hover:text-white cursor-pointer' >1</button>
-              <button className='h-[50px] w-[50px] border-black border-[1px] ml-[20px] font-extrabold text-[20px] hover:bg-black hover:text-white cursor-pointer' >2</button>
-              <button className='h-[50px] w-[50px] border-black border-[1px] ml-[20px] font-extrabold text-[20px] hover:bg-black hover:text-white cursor-pointer' >3</button>
-              <button className='h-[50px] w-[50px] border-black border-[1px] ml-[20px] font-extrabold text-[20px] hover:bg-black hover:text-white cursor-pointer' >4</button>
-              <button className='h-[50px] w-[50px] border-black border-[1px] ml-[20px] font-extrabold text-[20px] hover:bg-black hover:text-white cursor-pointer' >5</button>
-              <button className='h-[50px] w-[50px] border-black border-[1px] ml-[20px] font-extrabold text-[20px] hover:bg-black hover:text-white cursor-pointer' >6</button>
+              <button className='h-[50px] w-[50px] border-black border-[1px] ml-[20px] font-extrabold text-[20px]' >1</button>
+              <button className='h-[50px] w-[50px] border-black border-[1px] ml-[20px] font-extrabold text-[20px]' >2</button>
+              <button className='h-[50px] w-[50px] border-black border-[1px] ml-[20px] font-extrabold text-[20px]' >3</button>
+              <button className='h-[50px] w-[50px] border-black border-[1px] ml-[20px] font-extrabold text-[20px]' >4</button>
+              <button className='h-[50px] w-[50px] border-black border-[1px] ml-[20px] font-extrabold text-[20px]' >5</button>
+              <button className='h-[50px] w-[50px] border-black border-[1px] ml-[20px] font-extrabold text-[20px]' >6</button>
             </div>
             <h1 className='ml-[280px] mt-[20px] font-bold text-[20px]'>Select Number</h1>
           </div>
@@ -40,7 +40,7 @@ const Game = () => {
 
       <div>
         <div className='flex flex-col items-center justify-center mt-[50px]'>
-          <img src={dice} alt="dice1" className='cursor-pointer' />
+          <img src={dice} alt="dice1" />
           <button className='w-[230px] border-[1px] mt-[20px] h-[40px] rounded-[5px] font-bold hover:text-white hover:bg-black cursor-pointer' onClick={() => navigate('/game')}>Play Game</button>
           <div className='bg-[#FBF1F1] h-[180px] w-[600px] mt-[20px]'>
             <h1 className='font-bold text-[30px] ml-[20px]'>How to play dice game</h1>
