@@ -61,6 +61,7 @@ const Game = () => {
       <div>
         <div className='flex flex-col items-center justify-center mt-[50px]'>
           <img src={dice} alt="dice1" className='cursor-pointer' onClick={()=>{if(first<7){rollDice();setWarning(false)}else{setWarning(true)}}} />
+          <h1 className='text-[25px] font-bold'>Click on Dice to roll</h1>
           <button className='w-[230px] border-[1px] mt-[20px] h-[40px] rounded-[5px] font-bold hover:text-white hover:bg-black cursor-pointer' onClick={()=>setCount(0)}>Reset Score</button>
           <button className='w-[230px] border-[1px] mt-[20px] h-[40px] rounded-[5px] font-bold text-white bg-black hover:bg-white hover:text-black cursor-pointer' onClick={() => navigate('/rules')}>Show Rules</button>
           {warning && <h1 className='text-red-500 text-[20px] mt-[10px]'>You have not selected any number</h1>}
